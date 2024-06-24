@@ -1,7 +1,7 @@
 # Overview
 This template provides a very basic Spring Boot application. This is intended to provide a bare minimum set of files that is executable, and can be compiled into a functional docker image.
 
-There are 2 APIs for 2 tasks in [SuperVisorController.java](/src/main/java/springtemplate/SupervisorController.java):
+There are 2 APIs for 2 tasks in [SuperVisorController.java](/spring-template/src/main/java/springtemplate/SupervisorController.java):
 - First is POST API, send user details with validation and supervisor's name to notify.
 - Second is GET API returns list of supervisors(Manager) from external API calling using RestTemplate , filter its result by sorting it last name and then first name, check if supervisor jurisdiction field is not numeric.
 
